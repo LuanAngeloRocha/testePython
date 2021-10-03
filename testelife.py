@@ -1,5 +1,7 @@
 import datetime
 import pandas as pd
+import dados.csv
+
 #importando o arquivo csv com os dados
 dados = pd.read_csv("dados.csv")
 #Resposta para a pergunta ---> Qual data ocorreu o maior volume geral de negociações?
